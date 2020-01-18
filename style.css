@@ -1,0 +1,73 @@
+
+
+
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+img {
+    float: left;
+    padding: 0 30px 10px 0;
+}
+
+p {
+    line-height: 40px;
+}
+
+h1 {
+    color: lightseagreen;
+    padding-top: 25px;
+}
+
+hr {
+    padding-top: 20px;
+}
+
+.nav-link:active {
+color: lightgrey;
+}
+
+a:link { color: rgb(103, 103, 105); }          /* Unvisited links */
+a:visited { color: purple; }     /* Visited links */
+a:hover { background: yellow; }  /* Hovered links */
+a:active { color: red; }         /* Active links */
+
+p:active { background: #eee; }   /* Active paragraphs */
+
+
+
+span {
+    background-color: lightseagreen;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-size: 50px;
+
+
+
+
+}
+
+span > h1 {
+    color: white;
+    height: 60px;
+
+
+
+}
+
+.navbar-brand.mb-0.h1 {
+    color: white;
+    font-family: 'IM Fell Great Primer SC', serif;
+
+}
+
+.bg-light {
+    background-color: rgb(165, 163, 163)!important;
+}
+
+.btn.btn-primary.mb-2 {
+    background-color: lightseagreen;
+}
